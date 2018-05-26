@@ -1,2 +1,9 @@
-//import './lib/fromEvent';
-import './lib/map-reduce';
+import './lib/1.fromEvent';
+//import './lib/2.map-reduce';
+//import './lib/3.create';
+//import './lib/4.interval-v6';
+//import './lib/5.subject-active-approach';
+//import './lib/6.throttle-debounce-audit-time';
+//import './lib/7.reduce-scan';
+//import './lib/8.merge-map';
+//import './lib/9.switch-map';

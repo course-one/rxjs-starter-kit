@@ -10,7 +10,7 @@ const counter = document.getElementById('counter');
 
 /***********************************************************/
 
-import { Observable } from 'rxjs/Observable';
+import { Observable } from 'rxjs';
 import 'rxjs/add/observable/fromEvent';
 import 'rxjs/add/operator/throttleTime';
 
@@ -28,6 +28,6 @@ const subscription = observable.subscribe((event) => {
     if(btnClickCount >= 5) {
         // unsubscription from subscription object
         subscription.unsubscribe();
-        console.warn(`unsubscribed when counter was ${btnClickCount}.`);
+        console.log(`unsubscribed when counter was ${btnClickCount}.`);
     }
 });

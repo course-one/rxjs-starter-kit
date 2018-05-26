@@ -3,7 +3,7 @@ document.body.innerHTML = `<span id="result">0</span>`;
 
 /***********************************************************/
 
-import { Observable } from 'rxjs/Observable';
+import { Observable } from 'rxjs';
 import 'rxjs/add/observable/of';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/filter';
