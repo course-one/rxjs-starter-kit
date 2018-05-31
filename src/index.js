@@ -7,3 +7,5 @@ import './lib/1.fromEvent';
 //import './lib/7.reduce-scan';
 //import './lib/8.merge-map';
 //import './lib/9.switch-map';
+//import './lib/10.scheduler';
+//import './lib/11.subject';
